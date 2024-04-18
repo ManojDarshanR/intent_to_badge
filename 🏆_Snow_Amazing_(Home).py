@@ -15,12 +15,12 @@ def initialize_user_info():
    # session is open but not authed
    st.session_state['auth_status'] = 'not_authed'
    # all profile fields get set back to nothing
-   st.session_state['given_name'] = ''
-   st.session_state['middle_name'] = ''
-   st.session_state['family_name'] = ''
-   st.session_state['badge_email'] = ''
-   st.session_state['display_name'] = ''
-   st.session_state['display_format'] = ''
+   st.session_state['given_name'] = 'Manoj'
+   st.session_state['middle_name'] = 'Darshan'
+   st.session_state['family_name'] = 'Ravi'
+   st.session_state['badge_email'] = 'manojdarshan1524@gmail.com'
+   st.session_state['display_name'] = 'Manoj Darshan'
+   st.session_state['display_format'] = 'Manoj Darshan'
    st.session_state['display_name_flag'] = 'False'
    # workshop/account fields are set back to nothing 
    st.session_state['workshop_choice'] = '' 
